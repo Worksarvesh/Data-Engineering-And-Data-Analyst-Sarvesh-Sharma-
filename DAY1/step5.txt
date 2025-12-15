@@ -1,0 +1,20 @@
+--
+1- select specific rows
+2- filtering rows 
+3-combine multiple conditions 
+  
+
+  selecting columns 
+  1- series 
+  2- dataframe for selecting multiple columns
+  col = df["columns name"]
+  mulcol = df["1col","2col,........]
+
+  filtering rows 
+  using boolean indexing 
+  #based on single codition 
+   firtred = df[df[salary]>50000]
+  # based on multiple condition 
+  firtred = df[(df[salary]>50000]) & (df[age]<30)]
+  
+  #
