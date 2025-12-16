@@ -31,7 +31,7 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 # df.fillna(0,inplace=True)
-df['age'].fillna(df["age"].mean(),inplace=True)
-df['salary'].fillna(df["salary"].mean(),inplace=True)
-# if nan found instead of nan will it with '0'
+df['age'] = df['age'].fillna(df['age'].mean())
+df['salary'] = df['salary'].fillna(df['salary'].mean())
+
 print(df)
