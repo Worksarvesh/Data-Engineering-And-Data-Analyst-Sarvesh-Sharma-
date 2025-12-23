@@ -1,5 +1,0 @@
-NaN --- not a number 
-None --- for object data types 
-isnull()
-true---missing 
-false -- value is present 
